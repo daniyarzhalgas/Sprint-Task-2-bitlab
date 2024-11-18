@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E8EAED;
+}
+
+header{
+    background-color: #4277A5;
+}
+.header__top{
+    display: flex;
+    align-items: center;
+}
+.header__top h1{
+    color: #fff;
+}
+.container{
+    padding: 0 15vw;
+}
+.search-bar {
+    background-color: #1f3d63;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    margin-left: 80px;
+}
+
+.search-bar input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.search-bar input::placeholder {
+    color: #b0c4de; 
+}
+
+.search-bar .icon {
+    margin-right: 10px;
+    color: white;
+}
+
+.main-content{
+    display: flex;
+    padding: 50px 0;
+    gap: 15px;
+}
+
+.menu-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 10vw;
+}
+.menu-nav a{
+    text-decoration: none;
+    color: black;
+}
+.friends-list-content{
+    background-color: #fff;
+    width: 50vw;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.friends-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.friends-top div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.search-friends-btn{
+    background-color: #4277A5;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+.friends-top div a{
+    text-decoration: none;
+    color: #000;
+}
+.friends-top div p{
+    color: gray;
+}
+.main-content-search-bar{
+    padding: 6px 15px;
+}
+.main-content-search-bar input{
+    border: none;
+    outline: none;
+    width: 80%;
+}
+.friends-list{
+    padding: 10px 10px;
+}
+.friend-item{
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+}
+.friend-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.username{
+    color: #1f3d63;
+    font-weight: 550;
+}
+.place-where-work-or-study{
+    color: gray;
+}
+.friend-info a{
+    text-decoration: none;
+}
+
+.right-nav{
+    display: flex;
+    width: 20vw;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 0;
+    flex-direction: column;
+}
+.right-nav a{
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+}
+.mb-friend-card{
+    display: flex;
+    gap: 5px;
+    padding: 8px;
+}
+
+.mb-friends{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 20vw;
+    padding: 10px 5px;
+}
+a{
+    text-decoration: none;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
